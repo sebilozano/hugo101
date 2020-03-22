@@ -1,4 +1,11 @@
 baseURL = "https://hugo101.netlify.com/"
 languageCode = "en-us"
 title = "Hugo 101"
-theme = "hugo-base16-theme"
+theme = "aether"
+
+
+[params]
+brand = "The name that is displayed in the top left of the website, consider it the website name"
+description = "The website's description"
+homeimg = "URL to the image used for the home button at the bottom of each post - optional"
+bgimg = "URL to the image used for the page background - optional"
