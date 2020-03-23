@@ -77,3 +77,5 @@ fields:
       label: Featured Image Description
     label: Featured Image Parameters
   label: resources
+pages:
+- content/post/test-post.md
