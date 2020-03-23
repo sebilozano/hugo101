@@ -7,7 +7,7 @@ displayInMenu = true
 title = "Test Post"
 toc = true
 [resources]
-name = "test image"
+name = featuredImage
 src = "/uploads/IMG_1117.png"
 [resources.params]
 description = ""
