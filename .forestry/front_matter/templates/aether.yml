@@ -1,4 +1,50 @@
 ---
 label: Aether
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+- name: toc
+  type: boolean
+  label: Include Table of Contents?
+  default: false
+- name: displayInMenu
+  type: boolean
+  description: if the post should show up in the navigation menu
+  label: Display in Menu?
+  default: true
+- name: displayInList
+  type: boolean
+  description: if the post should be listed on the home page and category pages
+  label: Display in List?
+  default: true
+- name: draft
+  type: boolean
+  label: Is Draft?
+  default: true
