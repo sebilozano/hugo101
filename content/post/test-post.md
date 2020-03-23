@@ -9,10 +9,8 @@ toc = true
 [[resources]]
 name = "featuredImage"
 src = "/uploads/IMG_1117.png"
-[resources.params]
-description = ""
-
 +++
+
 # Test Time
 
 I'm writing a test post while watching Netflix. I've set up this website using Hugo, Netlify, and Forestry.io.
