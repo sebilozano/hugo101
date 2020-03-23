@@ -6,7 +6,7 @@ displayInList = true
 displayInMenu = true
 title = "Test Post"
 toc = true
-[resources]
+[[resources]]
 name = "featuredImage"
 src = "/uploads/IMG_1117.png"
 [resources.params]
