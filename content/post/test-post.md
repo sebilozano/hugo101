@@ -7,8 +7,8 @@ displayInMenu = true
 title = "Test Post"
 toc = true
 [[resources]]
-name = "featuredImage"
-src = "/uploads/IMG_1117.png"
+    name = "featuredImage"
+    src = "/uploads/IMG_1117.png"
 +++
 
 # Test Time
