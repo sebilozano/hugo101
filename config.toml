@@ -1,11 +1,12 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Hugo 101"
+title = "Sebi Lozano"
 theme = "aether"
 
 
 [params]
-brand = "The name that is displayed in the top left of the website, consider it the website name"
+brand = "sebi"
 description = "The website's description"
 homeimg = "URL to the image used for the home button at the bottom of each post - optional"
 bgimg = "URL to the image used for the page background - optional"
+
