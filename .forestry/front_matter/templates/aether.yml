@@ -48,3 +48,32 @@ fields:
   type: boolean
   label: Is Draft?
   default: true
+- name: resources
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: src
+    type: file
+    config:
+      maxSize: 250
+    label: Featured Image
+  - name: params
+    type: field_group
+    config: {}
+    fields:
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Featured Image Description
+    label: Featured Image Parameters
+  label: resources
