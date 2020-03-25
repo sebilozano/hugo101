@@ -6,7 +6,7 @@ displayInList = true
 displayInMenu = true
 title = "Test Post"
 toc = true
-featuredImage = "/uploads/IMG_1117.png"
+featuredImage = "uploads/IMG_1117.png"
 [[resources]]
     name = "featuredImage"
     src = "IMG_1117.png"
